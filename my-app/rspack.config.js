@@ -12,6 +12,12 @@ module.exports = composePlugins(withNx(), (config) => {
     'cache-manager',
     'util',
     'repl',
+    'os',
+    '@nestjs/microservices/microservices-module',
+    '@nestjs/websockets/socket-module',
+    'crypto',
+    'perf_hooks',
+    'stream',
   ];
   return config;
 });
